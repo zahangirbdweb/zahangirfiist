@@ -1,0 +1,67 @@
+*{margin:0px;
+padding:0px;
+}
+
+
+
+body
+{background-image: url(IMG_20200829_123917.jpg);
+	background-size: cover;
+	background-position:center;
+	font-family: sans-serif;
+	height: 70vmax;
+	
+	margin-left:200px;
+	margin-top:25px;
+}
+#dropdown ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#dropdown ul li 
+{
+	background-color:rgb(84, 79, 150);
+	width:150px;
+	border-radius:26px;
+	border:1px solid rgb(255, 255, 255);
+	height:50px;
+	line-height:50px;
+	text-align: center;
+	float: left;
+	color: rgb(15, 144, 153);
+	font-size:19px;
+	position:relative;
+	margin-right:2px;
+	position:relative;
+}
+#dropdown ul li
+{
+	text-decoration:none; color:rgb(255, 255, 255); display:block;
+}
+#dropdown ul li:hover 
+{
+	background-color:lime;
+}
+#dropdown ul li a
+{
+	text-decoration: none;
+	color: rgb(184, 157, 157);
+	display:block;
+}
+#dropdown ul  ul  
+{
+	display:none;
+}
+#dropdown ul li:hover >  ul
+{
+	display:block;
+}
+#dropdown ul ul ul
+{				
+				
+margin-left:150px;top: 1px;position: absolute;
+}
+
+
